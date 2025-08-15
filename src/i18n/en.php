@@ -92,8 +92,8 @@ return array(
 	),
 	'-nth_weekday' => array(
 		'-1' => 'the last %{weekday}', // e.g. the last Monday
-		'-2' => 'the penultimate %{weekday}',
-		'-3' => 'the antepenultimate %{weekday}',
+		'-2' => 'the 2nd last %{weekday}',
+		'-3' => 'the 3rd last %{weekday}',
 		'else' => 'the %{n}th to the last %{weekday}'
 	),
 	'byweekno' => array(
@@ -114,8 +114,8 @@ return array(
 	),
 	'-nth_monthday' => array(
 		'-1' => 'the last day',
-		'-2' => 'the penultimate day',
-		'-3' => 'the antepenultimate day',
+		'-2' => 'the 2nd last day',
+		'-3' => 'the 3rd last day',
 		'-21' => 'the 21st to the last day',
 		'-22' => 'the 22nd to the last day',
 		'-23' => 'the 23rd to the last day',
@@ -134,8 +134,8 @@ return array(
 	),
 	'-nth_yearday' => array(
 		'-1' => 'the last',
-		'-2' => 'the penultimate',
-		'-3' => 'the antepenultimate',
+		'-2' => 'the 2nd last',
+		'-3' => 'the 3rd last',
 		'else' => 'the %{n}th to the last'
 	),
 	'byhour' => array(
@@ -153,7 +153,7 @@ return array(
 		'else' => ' at seconds %{seconds}'
 	),
 	'nth_second' => '%{n}',
-	'bysetpos' => ', but only %{setpos} instance of this set',
+	'bysetpos' => ', but only %{setpos} occurance',
 	'nth_setpos' => array(
 		'1' => 'the first',
 		'2' => 'the second',
@@ -162,8 +162,8 @@ return array(
 	),
 	'-nth_setpos' => array(
 		'-1' => 'the last',
-		'-2' => 'the penultimate',
-		'-3' => 'the antepenultimate',
+		'-2' => 'the 2nd last',
+		'-3' => 'the 3rd last',
 		'else' => 'the %{n}th to the last'
 	)
 );
