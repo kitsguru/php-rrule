@@ -153,7 +153,7 @@ return array(
 		'else' => ' at seconds %{seconds}'
 	),
 	'nth_second' => '%{n}',
-	'bysetpos' => ', but only %{setpos} occurance',
+	'bysetpos' => ', but only %{setpos} occurrance',
 	'nth_setpos' => array(
 		'1' => 'the first',
 		'2' => 'the second',
